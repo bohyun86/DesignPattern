@@ -1,4 +1,9 @@
-package step1;
+package strategyPattern;
+
+import strategyPattern.fly.FlyBehavior;
+import strategyPattern.fly.FlyWithWings;
+import strategyPattern.quack.Quack;
+import strategyPattern.quack.QuackBehavior;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

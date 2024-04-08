@@ -1,4 +1,4 @@
-package step1;
+package strategyPattern.fly;
 
 public class FlyRocketPowered implements FlyBehavior {
     @Override

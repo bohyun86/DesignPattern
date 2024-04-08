@@ -1,4 +1,6 @@
-package step1;
+package strategyPattern;
+
+import strategyPattern.fly.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

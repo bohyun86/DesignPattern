@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddb8ecf-4ea7-42fb-a3ad-a222fa6cab24" name="변경" comment="" />
+    <list default="true" id="5ddb8ecf-4ea7-42fb-a3ad-a222fa6cab24" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/observerPattern/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observerPattern/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observerPattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observerPattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observerPattern/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observerPattern/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/fly/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/FlyNoWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/fly/FlyNoWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/fly/FlyRocketPowered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/fly/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/MallarDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/MallarDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/MiniDuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/ModelDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/MuteQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/quack/MuteQuack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/quack/Quack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/quack/QuackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategyPattern/Squeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/quack/Squeak.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,11 +45,13 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2eiyau5xBhaG7I0Rm50CBctR1aD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,9 +62,45 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/ijayeon/IdeaProjects/DesignPattern/src/Main.java"
+    "onboarding.tips.debug.path": "/Users/ijayeon/IdeaProjects/DesignPattern/src/Main.java",
+    "애플리케이션.MiniDuckSimulator.executor": "Run",
+    "애플리케이션.WeatherStation.executor": "Run"
   }
 }]]></component>
+  <component name="RunManager" selected="애플리케이션.WeatherStation">
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategyPattern.MiniDuckSimulator" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategyPattern.fly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observerPattern.WeatherStation" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observerPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.WeatherStation" />
+        <item itemvalue="애플리케이션.MiniDuckSimulator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -41,16 +111,5 @@
       <updated>1712401759828</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

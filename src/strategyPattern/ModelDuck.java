@@ -1,4 +1,7 @@
-package step1;
+package strategyPattern;
+
+import strategyPattern.fly.FlyNoWay;
+import strategyPattern.quack.Quack;
 
 public class ModelDuck extends Duck{
 
