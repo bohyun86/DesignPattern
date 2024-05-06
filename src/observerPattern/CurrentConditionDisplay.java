@@ -21,7 +21,6 @@ public class CurrentConditionDisplay implements Observer, DisplayElement {
     public void display() {
         System.out.println("현재 상태: 온도 " + temperature
         + "F, 습도 " + humidity + "%");
-
     }
 }
 

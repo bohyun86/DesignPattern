@@ -3,7 +3,7 @@ package observerPattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WeatherData {
+public class WeatherData implements Subject{
     private List<Observer> observers;
     private float temperature;
     private float humidity;
